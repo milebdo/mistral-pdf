@@ -35,7 +35,7 @@ vectordb.persist()
 retriever=vectordb.as_retriever(search_kwargs={'k': 6})
 
 repo_id = "mistralai/Mistral-7B-v0.1"
-llm = HuggingFaceHub(huggingfacehub_api_token='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', 
+llm = HuggingFaceHub(huggingfacehub_api_token='hf_xx, 
                      repo_id=repo_id, model_kwargs={"temperature":0.2, "max_new_tokens":50})
 
 # Create the Conversational Retrieval Chain
